@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFC898;
+}
+body{
+  font-family: monospace;
+}
+.mix{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+p{
+  font-size: 26px;
+}
+h2{
+  font-size: 36px;
+  text-align: center;
+}
+.pod{
+  background-color: #FFDEFA;
+  width: 100%;
+  display: flex;
+}
+.pod > div{
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.pod1{
+  background-color: #FFE459;
+}
+.pod2{
+  background-color:#3D087B;
+}
+.pod3{
+  background-color:#290FBA;
+}
+/* .pod4{
+  background-color:#F55C47;
+} */
+.pod4{
+  background-color:#4AA96C;
+}
+.pod5{
+  background-color:#C7753D;
+}
+.pod6{
+  background-color:#84142D;
+}
+
+@@keyframes jump {
+  0%{
+    bottom: 0%;
+    left: 20%;
+  }
+  50%{
+     bottom: 50%;
+     left: 50%;
+  }
+  100%{
+      bottom: 0%;
+      left: 80%;
+  }
+}
+
+.front-End > div{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0;
+}
